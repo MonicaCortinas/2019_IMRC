@@ -1,0 +1,249 @@
+/*inverso */
+
+.inverso {
+  background-color: rgba(22,147,165,1);
+}
+
+
+/* section divider red H1 fonts */
+.inverso h1, .inverso h2, .inverso h3, .inverso p {
+  color: #fff;
+}
+
+/* section divider grey */
+.title-slide-section-grey {
+  background-color: #515151;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* section divider grey H1 fonts */
+.title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
+  color: #fff;
+}
+
+.title-slide-section-grey p {
+  color: #fff;
+}
+
+
+/* Tablas */
+
+.tablabase {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12pt;     
+}
+
+.tablabase td, .rayas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tablabase th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(22,147,165, 1);
+    color: white;
+    font-family:'Yanone Kaffeesatz';
+    font-weight: normal;
+    font-size:1.1em;
+}
+
+.rayas tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablabase tr:hover {background-color: #ffff88;}
+
+.estrecha td, th {    padding: 5px;}
+
+.peque8 td, th {
+    padding: 1px;
+    font-size:8px;
+}
+
+.peque9estr td, th {
+    padding: 1px;
+    font-size:9px;
+}
+
+.peque9 td, th {
+    padding: 4px;
+    font-size:9px;
+}
+
+.peque10 td, th {
+    padding: 4px;
+    font-size:10px;
+}
+.peque10estre2 td, th {
+    padding: 3px;
+    font-size:10px;
+}
+.peque10estre td, th {
+    padding: 1px;
+    font-size:10px;
+}
+
+.peque11 td, th {
+    padding: 4px;
+    font-size:11px;
+}
+
+.peque12 td, th {
+    padding: 6px;
+    font-size:12px;
+}
+.peque13 td, th {
+    padding: 6px;
+    font-size:14px;
+}
+.peque14 td, th {
+    padding: 7px;
+    font-size:14px;
+}
+
+/*Change footnote position for mobile device*/
+
+
+
+/* Add image and change bg color */
+    .title-slide {
+        background-image: url(images/logo.png);
+        background-position: 90% 15%;
+        background-size: 100px;
+        background-color: #fff;
+            padding-left: 130px;  /* delete this for 4:3 aspect ratio */
+    }
+/* slightly spacing change */
+
+.estrecho p {
+  font-family: 'Yanone Kaffeesatz';    
+  color: #f3f3f3;
+  line-height: 0.5em;
+}    
+.red {color:red;}
+.grisito{color:#666666}
+.rojito {color:#cc0033;}
+.turquesa {color:rgba(22,147,165,1)}
+/* Add white link */
+    .alternativo {color: #FFFFFF;}
+   .link-blanco {color: white; text-decoration: none;}
+
+
+  
+.centrado{
+	margin:10px auto;
+	display:block;
+    }   
+    
+   /* H1 fonts */
+.title-slide h1 {
+  color: #515151;
+  padding-top: 100px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 1.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #cc0033;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 50px;
+  margin-top: 0px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #666666;
+  text-align: left;
+  text-shadow: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+}
+
+/* Remove slide count */
+.title-slide .remark-slide-number {
+  text-shadow: none;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+/* PROPIO Two-column layout (slightly wider for aspect ration) */
+.left-columnM {
+  color: #777;
+  width: 15%;
+  height: 92%;
+  float: left;
+}
+
+
+/* slightly thiner to suppor aspect ration */
+.right-columnM {
+  width: 66%;
+  float: right;
+
+}
+
+
+/* PROPIO AL REVES Two-column layout (slightly wider for aspect ration) */
+.right-columnR {
+  color: #777;
+  width: 22%;
+  height: 92%;
+  float: right;
+}
+
+
+/* slightly thiner to suppor aspect ration */
+.left-columnR {
+  width: 78%;
+  float: left;
+}
+
+
+/* PROPIO AL REVES Para bibliografía*/
+.right-columnBiblio {
+  font-size: 9pt;      
+  text-align:right;
+  width: 14%;
+  height: 92%;
+  float: right;
+}
+
+
+/* slightly thiner to suppor aspect ration */
+.left-columnBiblio {
+  width: 84%;
+  float: left;
+}
+
+/* cambios originales*/
+
+
+.pull-left {
+  float: left;
+  text-align:left;
+  width: 45%;
+}
+
+.pull-right {
+  float: right;
+  text-align:left;
+  width: 45%;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
